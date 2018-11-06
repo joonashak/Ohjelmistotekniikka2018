@@ -31,10 +31,6 @@ Määrittelydokumenttiin kanattaa ottaa mallia [referenssiprojektista](https://g
 
 Voit myös tehdä referenssiprojektin tapaan _käyttöliittymäluonnoksen_, se ei ole kuitenkaan pakollinen.
 
-**JOS teet työn jollain muulla kielellä kuin Javalla**
-- Kerro käyttämäsi kieli repostitoriosi README.md:ssä
-- Huomaa, että kielen käyttöön tulee olla lupa tai sen pitää löytyä sallittujen kielten [listalta](https://github.com/mluukkai/otm-2018/blob/master/web/tyon_aloitus.md#harjoitustyön-kieli-ja-ohjelmointikieli)
-
 ## Työaikakirjanpito
 
 Pidä säännöllisesti kirjaa käyttämistäsi työtunneista. Käytettyjen työtuntien määrä ei vaikuta arvosanaan, _mutta_ vajavaisesti pidetty työaikakirjanpito alentaa työn arvosanaa.
