@@ -21,7 +21,7 @@ Määrittelydokumentti tehdään samaan tapaan kuin [referenssiprojektista](http
 
 Määrittelydokumenttiin kannattaa ottaa mallia [referenssiprojektista](https://github.com/mluukkai/OtmTodoApp), eli sen tulee sisältää:
 
-- _Soveluksen tarkoitus_ eli pieni tekstuaalinen yleiskuvaus sovelluksesta
+- _Sovelluksen tarkoitus_ eli pieni tekstuaalinen yleiskuvaus sovelluksesta
 - _Käyttäjät_ eli tieto erilaisista _käyttäjärooleista_, joita järjestelmässä on
   - Tosin jos sovelluksessasi on vain yhdenlaisia käyttäjiä, ei kohtaa tarvita. Näin lienee tilanne monissa harjoitustöiden aiheissa kuten peleissä.
 - Suunnitellut toiminnallisuudet
