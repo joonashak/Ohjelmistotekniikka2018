@@ -19,7 +19,7 @@ Palautus tapahtuu lisäämällä oman aiheen _alustava määrittelydokumentti_ e
 
 Määrittelydokumentti tehdään samaan tapaan kuin [referenssiprojektista](https://github.com/mluukkai/OtmTodoApp) eli [markdown](https://guides.github.com/features/mastering-markdown/)-muodossa, sijoitetaan repositorion hakemistoon _dokumentointi_ ja siihen tulee olla linkki repositorion README.md:stä.
 
-Määrittelydokumenttiin kanattaa ottaa mallia [referenssiprojektista](https://github.com/mluukkai/OtmTodoApp), eli sen tulee sisältää:
+Määrittelydokumenttiin kannattaa ottaa mallia [referenssiprojektista](https://github.com/mluukkai/OtmTodoApp), eli sen tulee sisältää:
 
 - _Soveluksen tarkoitus_ eli pieni tekstuaalinen yleiskuvaus sovelluksesta
 - _Käyttäjät_ eli tieto erilaisista _käyttäjärooleista_, joita järjestelmässä on
