@@ -209,7 +209,7 @@ Harjoitustyössä tehtävä ohjelmisto tehdään maven-projektina. Projektin luo
 - valitse _new project_ ja tee seuraavat valinnat:
 <img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/a-3.png" width="550">
 
-- Vaikka käyttäisit JavaFX:ää, kannattaa projektia varten silti luoda  "normaali" maven-projekti ellet päätä käyttää [FXML:ää](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/junit.md#fxml)
+- Vaikka käyttäisit JavaFX:ää, kannattaa projektia varten silti luoda  "normaali" maven-projekti ellet päätä käyttää [FXML:ää](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/java.md#fxml)
 
 - määrittele kentän _Project location_ arvoksi repositoriosi juuri
 <img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/a-4.png" width="600">
