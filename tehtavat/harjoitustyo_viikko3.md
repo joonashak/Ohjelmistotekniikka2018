@@ -10,7 +10,7 @@ Palautuksesta on tarjolla 2 kurssipistettä.
 
 Arvostelussa kiinnitetään huomiota seuraaviin seikkoihin
 - Repostitorion juuresta löytyy Maven-projekti
-  - [ohje](https://github.com/mluukkai/Ohjelmistotekniikka18/blob/master/web/tyon_aloitus.md#harjoitusty%C3%B6n-aloitus) projektin luomiseen ja sen  sijoittamiseen palautusrepositorioon
+  - [ohje](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/tyon_aloitus.md#harjoitusty%C3%B6n-aloitus) projektin luomiseen ja sen  sijoittamiseen palautusrepositorioon
   - jos teet projektisi jollain muulla kielellä, tee projekti valitsemasi kielen mavenia vastaavalla mekanismilla
 - Projektin koodin pystyy suorittamaan NetBeansin vihreällä napilla _tai/ja_ komennolla <code>mvn compile exec:java -Dexec.mainClass=pakkaus.Paaohjelma</code>
   - komennon parametrina on metodin _main_ sisältävän luokan täydellinen, eli myös pakkauksen sisältämä nimi
