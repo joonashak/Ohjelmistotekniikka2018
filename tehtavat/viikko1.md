@@ -42,6 +42,8 @@ Tulet tarvitsemaan komentorivin käyttötaitoja tällä kurssilla ja muutenkin o
 
 Ota ssh-yhteys linuxpalvelimeen _melkki.cs.helsinki.fi_, _melkinpaasi.cs.helsinki.fi_ tai _melkinkari.cs.helsinki.fi_. Linuxilla ja macilla yhteys otetaan komentoriviltä komennolla _ssh kayttajatunnus@palvelimenosoite_. Windowsilla ssh-yhteyden ottaminen onnistuu esimerkiksi [putty:llä](http://www.putty.org).
 
+Sisäänkirjautuminen Melkille tapahtuu käyttäen yliopiston AD-tunnuksia, eli siis samoja joita käytetään esim. weboodiin kirjautuessa.
+
 Kirjauduttuasi laitoksen palvelimelle, tee seuraavat toimenpiteet:
 * luo kotihakemistoosi hakemisto _kurssit_
   * **HUOM** joidenkin kohdalla melkillä on ollut ongelmia kotihakemiston asetuksissa ja esim. hakemiston luomisen seurauksena on virhe 'permission denied'. Jos törmäät ongelmaan, lähetä viesti osoitteeseen _it-support@cs.helsinki.fi_ ja raportoi ongelmaksi "ei oikeuksia kotihakemistoon melkillä"
@@ -305,7 +307,7 @@ Muista käyttää komentoa _git status_ mahdollisimman usein. Älä myöskään 
 * Lisää se commitoitavaksi ja commitoi 
 * Muuta tiedostojen _toinen.txt_ ja _kolmas.txt_ sisältöä ja commitoi muutokset
 * Luo hakemisto _stuff_ ja sen sisälle jokin tiedosto
-* Lisää muutokset committoitavaksi ja committoi
+* Lisää muutokset commitoitavaksi ja commitoi
   * Huomaa, että hakemiston lisääminen riittää, sen sisältämät tiedostot tulevat automaattisesti lisätyksi
 * Katso miltä git-logi näyttää
 
@@ -387,8 +389,8 @@ nothing to commit, working directory clean
 
 * Varmista vielä, että tiedoston sisältö on sama kuin ennen muutoksia
 
-Myös stagingiin viety eli valmiina committoitavaksi oleva muutos voidaan perua. 
-* Tee muutoksia tiedostoon _kolmas.txt_ ja lisää se committoitavaksi. **Älä** kuitenkaan committoi. 
+Myös stagingiin viety eli valmiina commitoitavaksi oleva muutos voidaan perua. 
+* Tee muutoksia tiedostoon _kolmas.txt_ ja lisää se committoitavaksi. **Älä** kuitenkaan commitoi. 
 * git statuksen pitäisi näyttää seuraavalta
 
 ``` bash
@@ -436,7 +438,7 @@ Seuraavassa tiedoston tilaa kuvaava kaavio täydennettynä, eli jos tiedosto on 
 - muuta tiedoston _file3_ sisältöä, lisää commitoitavaksi
 - peru muutokset!
 - poista tiedosto _file1_ ja uudelleennimeä tiedosto _file2_ tiedostoksi _file22_
-- committoi 
+- commitoi 
 
 Suorita repositoriossa komento _git log --stat | cat_ ja **ota komennon tulos talteen**, tulet tarvitsemaan sitä myöhemmin!
 

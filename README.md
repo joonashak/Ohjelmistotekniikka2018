@@ -55,7 +55,7 @@ Kaikki pajaohjaus tapahtuu alakerran pajaluokassa BK107. Jos ohjauksiin tulee mu
 | Kellonaika | Maanantai | Tiistai | Keskiviikko | Torstai | Perjantai |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 | 10 - 12 | | | | | Hugo H
-| 12 - 14 | Teemu P | Olli K-H | Essi S
+| 12 - 14 | Teemu P | Olli K-H | | | Essi S
 | 14 - 16 | Olli T | Joona H | Petja V
 
 
