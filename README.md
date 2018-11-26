@@ -34,6 +34,7 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
   - viikko 2 [laskarit](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/tehtavat/viikko2.md) ja [harjoitustyö](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/tehtavat/harjoitustyo_viikko2.md)
   - viikko 3 [laskarit](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/tehtavat/viikko3.md) ja [harjoitustyö](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/tehtavat/harjoitustyo_viikko3.md)
   - viikko 4 [harjoitustyö](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/tehtavat/harjoitustyo_viikko4.md)
+  - viikko 5 [harjoitustyö](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/tehtavat/harjoitustyo_viikko5.md)
 - Kurssin referenssisovellus [OtmTodoApp](https://github.com/mluukkai/OtmTodoApp)
   - Sovelluksen tarkoituksena on demonstroida erästä tapaa tehdä suurin piirtein täysiin pisteisiin riittävä dokumentaatio ja testaus projektillesi. Itse ohjelma on sen verran suppea, että saadaksesi kurssilta arvosanan 5 joudut tekemään hieman laajemman sovelluksen. 
 - [Labtool](https://studies.cs.helsinki.fi/labtool/courses/TKT20002.2018.S.K.1)
