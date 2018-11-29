@@ -15,7 +15,6 @@ Palautuksesta on tarjolla 3 kurssipistettä.
 Arvostelussa kiinnitetään huomiota seuraaviin seikkoihin
 
 - Ohjelmasta pystyy tekemään suorituskelpoisen [jar](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/maven.md#jarin-generointi)-tiedoston komennolla _mvn package_ (0.5p) 
-  - jos käytössäsi on joku muu kieli kuin Java, oletuksena on että teet kyseiselle kielelle mielekkään suoritettavan version   
 - Projektista on tehty _github release_ (0.25p) 
   - Release sisältää ohjelman uusimman version suorituskelpoisen jar-tiedoston
   - [Ohje](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/release.md) releasen tekemiseen
@@ -26,7 +25,6 @@ Arvostelussa kiinnitetään huomiota seuraaviin seikkoihin
   - Sovellukselle tulee pystyä generoimaan testikattavuusraportti komennolla <code>mvn test jacoco:report</code>
   - Käyttöliittymän rakentava koodi [jätetään pois](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/maven.md#koodin-huomiotta-jättäminen-kattavuusraportissa) testikattavuusraportista
   - Sovelluksen testien rivikattavuuden tulee olla vähintään 40%
-  - Jos teet projektisi jollain muulla kielellä kuin Javalla, lisää README-tiedostoon ohje testien suorittamiselle ja kattavuusraportin generoimiselle
 - Koodin laatu (0.5p)
   - Sovelluslogiikka on eriytetty käyttöliittymästä
     - Vihjeitä [täällä](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/java.md) ja [referenssisovelluksessa](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/arkkitehtuuri.md)
@@ -34,7 +32,6 @@ Arvostelussa kiinnitetään huomiota seuraaviin seikkoihin
   - Checkstyle on käytössä
     - Täydet pisteet Checkstylestä ainoastaan jos ohjelmassa on alle 5 Checkstyle-virhettä
     - Käyttöliittymän rakentavan koodin ei tarvitse olla Checkstyle-tarkastelun alla
-    - Jos teet projektisi jollain muulla kielellä kuin Javalla, tulee olla käytössä kielen _Checkstyleä_ vastaava työkalu, määrittele se järkevästi ja laita README-tiedostoon ohje tyylitarkastusten suorittamiselle
   - Ohjelma ei sisällä suurta määrää toisteista koodia
 - Ohjelman dokumentaatiossa on ainakin yksi sen jotain oleellista toiminnallisuutta kuvaava sekvenssikaavio (0.5p)
   - Mallia voi ottaa [referenssisovelluksesta](https://github.com/mluukkai/OtmTodoApp/blob/master/dokumentaatio/arkkitehtuuri.md#sovelluslogiikka)
