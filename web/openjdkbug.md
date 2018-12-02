@@ -1,8 +1,10 @@
 ## Bugi OpenJDK:n uusimmassa versiossa (marraskuu 2018)
 
-OpenJDK:n uusimmassa versiossa on bugi, joka saattaa estää ohjelman ja/tai testien ajamisen tarkastettaessa. 
+OpenJDK:n uusimmassa versiossa on bugi, joka vaikuttaa mavenia käyttäviin sovelluksiin esim. estämällä sovelluksen/testien ajamisen. 
 
-Helpottaaksesi tarkastajien työtä lisää pom.xml tiedostoon maven-surefire-plugin:
+Tällä hetkellä ongelmaan ei ole tiedossa mitään järkevää korjausta, joka toimisi käyttöympäristöstä riippumatta, joten kannattaa pitäytyä käyttämästä OpenJDK:ta ja turvautua vaihtoehtoisiin ratkaisuihin (esim. Oracle JDK). 
+
+Jos kuitenkin kaikesta huolimatta haluat käyttää OpenJDK:ta, lisää pom.xml tiedostoon maven-surefire-plugin:
 
 ```
 <plugin>
@@ -15,6 +17,8 @@ Helpottaaksesi tarkastajien työtä lisää pom.xml tiedostoon maven-surefire-pl
 </plugin>
 ```
 
-Jos olet jo määrittänyt ko. pluginin, lisää sen `<configuration>` -tagien sisään seuraava rivi:
+Jos olet jo määrittänyt ko. pluginin, lisää sen `<configuration>` -tagien sisään seuraava rivi yo. esimerkin mukaisesti:
 
 `<argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>`
+
+Nämä lisäykset saattavat kuitenkin rikkoa Jacocon testikattavuusraportin, joten niitä kannattaa käyttää harkiten.
